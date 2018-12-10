@@ -11,13 +11,16 @@
 
 4.	Go into “**Environments**” tab, and select “**Create**” to create a new Conda environment as shown below
 
- 
+<img src="/1.png" alt="drawing" width="600"/>
+
 
 5.	Type in “azureml” as the name. Select “**Python 3.6**” and click “**Create**”. It may take a few minutes to configure the new environment.
  
+<img src="/2.png" alt="drawing" width="400"/>
 
 6.	When the new environment is ready, choose “**Open Terminal**” to start a new terminal in that environment.
  
+<img src="/3.png" alt="drawing" width="400"/>
 
 7.	In the terminal run the below command to install AzureML SDK and other related packages used in our workshop:
 
@@ -27,7 +30,7 @@ pip install --upgrade azureml-sdk[notebooks,contrib] scikit-image tensorflow ten
 
 It may take 10 more minutes to install the packages. When complete, you can do the following to check if AzureML SDK has successfully installed:
 
- 
+<img src="/4.png" alt="drawing" width="600"/>
 
 
 8.	Jupyter has been already preinstalled in the Anaconda environment. We then need to install and enable Widget plugin for AzureML notebooks by following commands
