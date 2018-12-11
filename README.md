@@ -32,6 +32,24 @@ https://ms.portal.azure.com/#@microsoft.onmicrosoft.com/resource/subscriptions/<
  
 <img src="/3.png" alt="drawing" width="400"/>
 
+### Note that
+
+During ***step 5***, if you receive the following error 
+
+```
+Some of the functionality of Anaconda Navigator will be limited in offline mode.
+
+Installation and upgrade of packages will be subject to the packages currently available on your package cache.
+```
+Please **Open Terminal** of **base (root)** environment. In the launched terminal, please run the following command:
+
+```
+conda create -n azureml python=3.6 anaconda
+```
+followed by
+- Windows: ```activate azureml```
+- Mac OS: ```source activate azureml```
+
 7.	In the terminal run the below command to install AzureML SDK and other related packages used in our workshop:
 
 ```sh
