@@ -48,7 +48,7 @@ It may take 10 more minutes to install the packages. When complete, you can do t
 ```
 conda install ipywidgets 
 jupyter nbextension install --py --user azureml.widgets 
-jupyter nbextension enable azureml.widgets --user –py
+jupyter nbextension enable azureml.widgets --user -–py
 ```
 
 Now you are all set! 
