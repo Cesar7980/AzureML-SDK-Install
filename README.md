@@ -83,7 +83,7 @@ Then follow ***Step 7 and 8*** in the above instructions
 
 ## Last but not least:
 
-In the workshop, we will run notebooks in https://github.com/danielsc/dogbreeds.git. 
+In the workshop, we will run notebooks in https://github.com/Azure/MachineLearningNotebooks. 
 
 Please also be sure to have git installed on your PC from https://git-scm.com/downloads 
 
