@@ -1,12 +1,3 @@
-## Validate access to Azure resource group
-Please visit the following Azure portal link to ensure you have been added in the resource group for the AML workshop:
-
-```
-https://ms.portal.azure.com/#@microsoft.onmicrosoft.com/resource/subscriptions/<subscription id of your group>/resourceGroups/AMLworkshop/overview
-```
- 
- If you receive `No Access` error, please contact your subscription assigner in your group to get the access permission
-
 
 ## Installing AzureML SDK inside Anaconda Managed Environment
 1.	Download Anaconda Installation kit from https://www.anaconda.com/download/:
